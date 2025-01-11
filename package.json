@@ -30,7 +30,7 @@
     "dev": "DEV=true nuxi dev .docs",
     "build": "DEV=true nuxi generate .docs",
     "play": "nuxi dev .playground",
-    "prepare": "cross-env DEV=true nuxi prepare .docs"
+    "prepare": "DEV=true nuxi prepare .docs",
     "lint": "eslint .",
     "typecheck": "nuxi typecheck",
     "release": "release-it",
